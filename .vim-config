@@ -1,0 +1,25 @@
+set nocompatible
+set ruler
+
+set belloff=all
+
+set ignorecase
+set smartcase
+
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set smarttab
+set smartindent
+
+set linebreak
+
+set mouse=a
+set backspace=2
+
+nnoremap <F3> :set invhlsearch<CR>
+
+nnoremap <F4> :set number!<CR>
+
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
