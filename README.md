@@ -1,6 +1,6 @@
-## Usage
-
 --------------------
+
+## Usage
 
 ```
 xov [OPTIONS] [FILE]
@@ -20,9 +20,17 @@ Default filename is `date +%y-%m-%d`
 git remote set-url origin {URL}
 ```
 
-## Notes
-
 --------------------
+
+## Notes
 
 You can put link to `xov` in `/bin` directory and use it globaly.
 But you can't use `xov.sh` globaly.
+
+To disable indexing after changing file permissions run:
+
+```
+git config core.fileMode false
+```
+
+--------------------
